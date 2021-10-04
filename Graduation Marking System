@@ -1,0 +1,13 @@
+m = int(input("enter your marks: "))
+if m>=91 and m<=100:
+    print("Your Grade is A")
+elif m>=81 and m<90:
+    print("Your Grade is B")
+elif m>=71 and m<80:
+    print("Your Grade is C")
+elif m>=61 and m<70:
+    print("Your Grade is D")
+elif m>=51 and m<60:
+    print("Your Grade is E")
+elif m<51:
+    print("Your Grade is FAIL")
